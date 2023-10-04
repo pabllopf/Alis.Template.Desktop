@@ -35,7 +35,7 @@ namespace Alis.Game.Desktop
     public static class Program
     {
         /// <summary>
-        ///     Main the args
+        ///     Main
         /// </summary>
         /// <param name="args">The args</param>
         public static void Main(string[] args) => VideoGame.Builder().Run();
