@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Alis" Version="latest" />
+      <PackageReference Include="Alis" Version="*" />
     </ItemGroup>
 
 </Project>
