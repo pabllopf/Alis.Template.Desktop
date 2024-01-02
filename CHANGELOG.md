@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.0.4] - 2024-01-02
+### :bug: Bug Fixes
+- [`ea4971b`](https://github.com/pabllopf/Alis.Template.Desktop/commit/ea4971b44046397616be6ecf8011a5c895a0523d) - program call to automatic detect the last version of alis. *(commit by [@pabllopf](https://github.com/pabllopf))*
+
+
 ## [v0.0.3] - 2024-01-02
 ### :art: Code Style Changes
 - [`1177b7f`](https://github.com/pabllopf/Alis.Template.Desktop/commit/1177b7f82fe5f5b3d715a2ffed9a522e1701dc6c) - refactor Program class *(commit by [@pabllopf](https://github.com/pabllopf))*
@@ -27,3 +32,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v0.0.1]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.0...v0.0.1
 [v0.0.2]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.1...v0.0.2
 [v0.0.3]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.2...v0.0.3
+[v0.0.4]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.3...v0.0.4
