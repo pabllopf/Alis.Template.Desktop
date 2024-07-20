@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.0.7] - 2024-07-20
+### :sparkles: New Features
+- [`33f9f71`](https://github.com/pabllopf/Alis.Template.Desktop/commit/33f9f71517193519ccfb19836374d075ff1df39d) - add new builds *(commit by [@pabllopf](https://github.com/pabllopf))*
+
+### :bug: Bug Fixes
+- [`9881832`](https://github.com/pabllopf/Alis.Template.Desktop/commit/98818328f2711ec2e4aa0e630cc8dd01816ae6ec) - move to .net8.0 sample *(commit by [@pabllopf](https://github.com/pabllopf))*
+
+
 ## [v0.0.6] - 2024-07-04
 ### :bug: Bug Fixes
 - [`bf7f3ae`](https://github.com/pabllopf/Alis.Template.Desktop/commit/bf7f3ae12815f303fc2299a541dffc576777f1ed) - change name sln *(commit by [@pabllopf](https://github.com/pabllopf))*
@@ -45,3 +53,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v0.0.4]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.3...v0.0.4
 [v0.0.5]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.4...v0.0.5
 [v0.0.6]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.5...v0.0.6
+[v0.0.7]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.6...v0.0.7
