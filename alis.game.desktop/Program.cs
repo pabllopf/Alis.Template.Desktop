@@ -36,6 +36,7 @@ namespace Alis.Game.Desktop
     /// </summary>
     public static class Program
     {
+        
         /// <summary>
         ///     Main the args
         /// </summary>
