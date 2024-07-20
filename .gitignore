@@ -1,30 +1,38 @@
 .vs/
 .vscode/
 .idea/
+.test/
 
 /**/.vs/
 /**/.publish/
 /**/.nuget/
 /**/.vscode/
 /**/.idea/
+/**/.test/
 
 /**/.vs/**
 /**/.nuget/**
 /**/.vscode/**
 /**/.idea/**
+/**/.test/**
 
 /**/**/[Bb]in/**
 /**/**/[Oo]bj/**
 /**/**/[Ll]ib/**
+/**/**/.[Tt]est/**
 /**/vs/**
 /**/vscode/**
 /**/idea/**
+/**/.[Tt]est/**
 
 /**/**/[Pp]ublish/**
 /**/[Pp]ublish/**
 
 /**/**/.[Pp]ublish/**
 /**/.[Pp]ublish/**
+
+/**/**/.[Bb]uild/**
+/**/.[Bb]uild/**
 
 /**/_/**
 
@@ -36,7 +44,6 @@
 
 *.log
 *.exe
-*.dll
 *.txt
 *.nupkg
 *.suo
@@ -46,7 +53,6 @@
 *.booproj
 *.svd
 *.pdb
-*.xml
 *.deb
 *.tar
 *.mdb
@@ -65,4 +71,7 @@
 *FodyWeavers.xsd
 *.htm
 
+
+.config/Config.props
+.config/Config.props
 
