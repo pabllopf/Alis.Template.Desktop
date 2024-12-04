@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.0.9] - 2024-12-04
+### :bug: Bug Fixes
+- [`374096b`](https://github.com/pabllopf/Alis.Template.Desktop/commit/374096b843163fff8f8757c454332d9e404d897d) - videogame call *(commit by [@pabllopf](https://github.com/pabllopf))*
+
+
 ## [v0.0.8] - 2024-09-08
 ### :bug: Bug Fixes
 - [`764cb10`](https://github.com/pabllopf/Alis.Template.Desktop/commit/764cb10e15180906a7a9fa2dfa0ef94b50b84e7a) - csproj *(commit by [@pabllopf](https://github.com/pabllopf))*
@@ -60,3 +65,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v0.0.6]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.5...v0.0.6
 [v0.0.7]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.6...v0.0.7
 [v0.0.8]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.7...v0.0.8
+[v0.0.9]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.8...v0.0.9
