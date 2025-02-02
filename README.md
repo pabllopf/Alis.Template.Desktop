@@ -32,6 +32,10 @@
 - [Collaborators](#-collaborators)
 ---
 
+[![](https://raw.githubusercontent.com/pabllopf/Alis.Template.Desktop/refs/heads/master/docs/screenshots/template.png)](https://raw.githubusercontent.com/pabllopf/Alis.Template.Desktop/refs/heads/master/docs/screenshots/template.png) 
+
+---
+
 ## 📖 Description
 
 Alis is a cross-platform framework designed to help developers create video games effortlessly. It includes a wide range of packages tailored for different functionalities like graphics, physics, networking, audio, and extensions for cloud integrations, AI, and more.
