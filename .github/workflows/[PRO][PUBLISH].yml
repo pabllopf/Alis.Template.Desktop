@@ -5,8 +5,8 @@ on:
     branches: [ master ]
 
 env:
-  APP_NAME: "DesktopSample"
-
+  APP_NAME: "Template_Sample"
+    
 jobs:
   
   Build_And_Deploy:
@@ -22,7 +22,6 @@ jobs:
         with:
           dotnet-version: |
             8.0.x
-
       - name: Define file name to update version
         run: echo "FILENAME=$(echo './Directory.Build.props')" >> $GITHUB_ENV
 
@@ -79,46 +78,46 @@ jobs:
 
       - name: Print the next version
         run: echo $CURRENTVERSION
-
+        
       - name: publish osx-arm64
         run: dotnet publish  -c Release -f net8.0 -r osx-arm64 -o ./.build/osx_arm64/
-
+      
       - name: zip osx-arm64
         run: zip -r ./.build/${{ env.APP_NAME }}_osx_arm64.zip ./.build/osx_arm64/
-
+      
       - name: publish osx-x64
         run: dotnet publish  -c Release -f net8.0 -r osx-x64 -o ./.build/osx_x64/
-
+      
       - name: zip osx-x64
         run: zip -r ./.build/${{ env.APP_NAME }}_osx_x64.zip ./.build/osx_x64/
-
+      
       - name: publish win-x64
         run: dotnet publish  -c Release -f net8.0 -r win-x64 -o ./.build/win_x64/
-
+      
       - name: zip win-x64
         run: zip -r ./.build/${{ env.APP_NAME }}_win_x64.zip ./.build/win_x64/
-
+      
       - name: publish win-arm64
         run: dotnet publish  -c Release -f net8.0 -r win-arm64 -o ./.build/win_arm64/
-
+      
       - name: zip win-arm64
         run: zip -r ./.build/${{ env.APP_NAME }}_win_arm64.zip ./.build/win_arm64/
-
+      
       - name: publish win-x86
         run: dotnet publish  -c Release -f net8.0 -r win-x86 -o ./.build/win_x86/
-
+      
       - name: zip win-x86
         run: zip -r ./.build/${{ env.APP_NAME }}_win_x86.zip ./.build/win_x86/
-
+      
       - name: publish linux-x64
         run: dotnet publish  -c Release -f net8.0 -r linux-x64 -o ./.build/linux_x64/
-
+      
       - name: zip linux-x64
         run: zip -r ./.build/${{ env.APP_NAME }}_linux_x64.zip ./.build/linux_x64/
-
+      
       - name: publish linux-arm64
         run: dotnet publish  -c Release -f net8.0 -r linux-arm64 -o ./.build/linux_arm64/
-
+      
       - name: zip linux-arm64
         run: zip -r ./.build/${{ env.APP_NAME }}_linux_arm64.zip ./.build/linux_arm64/
     
@@ -192,6 +191,7 @@ jobs:
             ./.build/${{ env.APP_NAME }}_win_x86.zip
             ./.build/${{ env.APP_NAME }}_linux_x64.zip
             ./.build/${{ env.APP_NAME }}_linux_arm64.zip
+            
         
       - name: git fetch
         run: git fetch
