@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.1] - 2025-02-02
+### :sparkles: New Features
+- [`ceb1fb9`](https://github.com/pabllopf/Alis.Template.Desktop/commit/ceb1fb9caac467e110e6bf7cd923ae731290e2dd) - dll reduce size *(commit by [@pabllopf](https://github.com/pabllopf))*
+
+
 ## [v0.1.0] - 2025-01-07
 ### :bug: Bug Fixes
 - [`17d812d`](https://github.com/pabllopf/Alis.Template.Desktop/commit/17d812df3450e6bb790cf5bb538de19ccea04a7f) - update readme file *(commit by [@pabllopf](https://github.com/pabllopf))*
@@ -72,3 +77,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v0.0.8]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.7...v0.0.8
 [v0.0.9]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.8...v0.0.9
 [v0.1.0]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.0.9...v0.1.0
+[v0.1.1]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.1.0...v0.1.1
