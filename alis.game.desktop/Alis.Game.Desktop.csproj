@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
@@ -13,18 +13,31 @@
               CopyToPublishDirectory="Always"/>
     </ItemGroup>
 
-    
     <ItemGroup>
         <PackageReference Include="Alis" Version="*" />
-        <PackageReference Include="Alis.Extension.Ads.GoogleAds" Version="*" />
-        <PackageReference Include="Alis.Extension.Cloud.DropBox" Version="*" />
-        <PackageReference Include="Alis.Extension.Cloud.GoogleDrive" Version="*" />
-        <PackageReference Include="Alis.Extension.Graphic.ImGui" Version="*" />
-        <PackageReference Include="Alis.Extension.Graphic.OpenGL" Version="*" />
-        <PackageReference Include="Alis.Extension.Language.Translator" Version="*" />
-        <PackageReference Include="Alis.Extension.Math.HighSpeedPriorityQueue" Version="*" />
-        <PackageReference Include="Alis.Extension.Payment.Stripe" Version="*" />
-        <PackageReference Include="Alis.Extension.Plugin" Version="*" />
-        <PackageReference Include="Alis.Extension.Profile" Version="*" />
     </ItemGroup>
+
+    <PropertyGroup Condition="$(Configuration) == 'Debug'">
+        <Optimize>true</Optimize>
+        <PublishTrimmed>true</PublishTrimmed>
+        <TrimUnusedDependencies>true</TrimUnusedDependencies>
+    </PropertyGroup>
+
+
+    <PropertyGroup Condition="$(Configuration) == 'Release'">
+        <Optimize>true</Optimize>
+        <PublishReadyToRun>false</PublishReadyToRun>
+        <PublishSingleFile>true</PublishSingleFile>
+        <SelfContained>true</SelfContained>
+        <OptimizationPreference>Size</OptimizationPreference>
+        <StackTraceSupport>false</StackTraceSupport>
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <IncludeNativeLibrariesForSelfExtract>false</IncludeNativeLibrariesForSelfExtract>
+        <DebugType>none</DebugType>
+        <EnableUnsafeBinaryFormatterSerialization>false</EnableUnsafeBinaryFormatterSerialization>
+        <TrimUnusedDependencies>true</TrimUnusedDependencies>
+        <PublishTrimmed>true</PublishTrimmed>
+        <TrimMode>Link</TrimMode>
+        <UseSystemResourceKeys>true</UseSystemResourceKeys>
+    </PropertyGroup>
 </Project>
