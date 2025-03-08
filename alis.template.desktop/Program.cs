@@ -28,10 +28,9 @@
 //  --------------------------------------------------------------------------
 
 
-
 using Alis.Core.Ecs.System;
 
-namespace Alis.Game.Desktop
+namespace Alis.Template.Desktop
 {
     /// <summary>
     ///     The program class
