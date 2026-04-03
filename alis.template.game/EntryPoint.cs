@@ -1,4 +1,4 @@
-namespace Alis.Template.Desktop
+namespace Alis.Template.Game
 {
     /// <summary>
     /// The entry point class
