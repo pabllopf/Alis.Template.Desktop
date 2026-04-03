@@ -50,8 +50,6 @@ Global
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|x64.Build.0 = Debug|Any CPU
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|x86.Build.0 = Debug|Any CPU
-		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|WebAssembly.ActiveCfg = Debug|Any CPU
-		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|WebAssembly.Build.0 = Debug|Any CPU
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|arm64.ActiveCfg = Debug|Any CPU
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|arm64.Build.0 = Debug|Any CPU
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -64,6 +62,8 @@ Global
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Release|WebAssembly.Build.0 = Release|Any CPU
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Release|arm64.ActiveCfg = Release|Any CPU
 		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Release|arm64.Build.0 = Release|Any CPU
+		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|WebAssembly.ActiveCfg = Debug|WebAssembly
+		{CCB2A24D-B4F8-4EEA-B462-894DE5FC34D8}.Debug|WebAssembly.Build.0 = Debug|WebAssembly
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

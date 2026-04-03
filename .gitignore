@@ -75,3 +75,15 @@
 .config/Config.props
 .config/Config.props
 
+alis.template.game/.gitattributes
+alis.template.game/.nojekyll
+alis.template.game/EntryPoint.cs
+alis.template.game/index.html
+alis.template.game/Interop.cs
+alis.template.game/main.js
+alis.template.game/Native/emscripten.c
+alis.template.game/Native/libEGL.c
+alis.template.game/Native/openal32.c
+alis.template.game/runtimeconfig.template.json
+alis.template.game/EntryPoint.cs
+alis.template.game/EntryPoint.cs
