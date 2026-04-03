@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.7] - 2026-04-03
+### :bug: Bug Fixes
+- [`8689770`](https://github.com/pabllopf/Alis.Template.Desktop/commit/86897705ec0b45f1c5fbc542944c4fb563291d6b) - Rename template project to alis.template.game *(commit by [@pabllopf](https://github.com/pabllopf))*
+
+
 ## [v0.1.6] - 2026-04-03
 ### :bug: Bug Fixes
 - [`24bf8a3`](https://github.com/pabllopf/Alis.Template.Desktop/commit/24bf8a3bf49277b35b3e4a0653b820f232a34039) - Move Program to EntryPoint/Game and add assets *(commit by [@pabllopf](https://github.com/pabllopf))*
@@ -112,3 +117,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v0.1.4]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.1.3...v0.1.4
 [v0.1.5]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.1.4...v0.1.5
 [v0.1.6]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.1.5...v0.1.6
+[v0.1.7]: https://github.com/pabllopf/Alis.Template.Desktop/compare/v0.1.6...v0.1.7
