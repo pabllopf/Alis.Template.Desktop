@@ -11,3 +11,4 @@ namespace Alis.Template.Game
         public static void Main(string[] args) => Game.Create(args).Run();
     }
 }
+
